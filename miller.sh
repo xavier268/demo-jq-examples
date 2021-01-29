@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "Demo using jq to process a CSV file"
-echo "Using $(jq --version)"
+echo "Demo using miller to process a CSV file"
 echo "Using $( mlr --version)"
 SECONDS=0
 CSV="test.csv"
